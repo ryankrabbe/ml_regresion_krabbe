@@ -1,0 +1,103 @@
+# Up-to-date package management tools
+pip
+setuptools
+wheel
+
+# Easy logging for monitoring code execution
+# loguru
+
+# Environment variables management
+# python-dotenv
+
+# ======================================================
+# TEXT-TO-SPEECH
+# ======================================================
+# Offline text-to-speech library for Python (1-15 MB)
+# pyttsx3  
+
+# ======================================================
+# JUPYTER (OPTIONAL, NEEDED FOR NOTEBOOKS)
+# ======================================================
+
+# Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
+ipython
+
+# Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
+jupyter
+
+# Kernel interface for Jupyter notebooks (required for proper kernel registration)
+ipykernel
+
+# Interactive widgets (often used in notebooks).
+ipywidgets
+
+
+# ======================================================
+# DATA ANALYSIS 
+# ======================================================
+
+# Numerical computations and arrays (20-30 MB)
+numpy
+
+# Data manipulation and analysis (built on numpy, 10-20 MB)
+pandas
+
+# ======================================================
+# VISUALIZATION
+# ======================================================
+
+# Core library for creating visualizations (~30 MB)
+matplotlib
+
+# Statistical data visualization library built on matplotlib (~2-5 MB)
+seaborn
+
+# Interactive plotting library, often used with Shiny apps (~20-25 MB)
+#plotly
+
+# ======================================================
+# CONTINUOUS INTELLIGENCE AND INTERACTIVE ANALYTICS
+# ======================================================
+
+# Shiny framework for Python applications (~5-10 MB)
+#shiny
+
+# ======================================================
+# KAFKA STREAMING MESSAGE BROKER INTEGRATION
+# ======================================================
+
+# Apache Kafka Python client (~1 MB)
+#kafka-python
+
+# ======================================================
+# STREAM PROCESSING - CAN BE VERY LARGE
+# ======================================================
+
+# Streaming data processing framework (~200-250 MB)
+#pyspark<4.0.0
+
+# ======================================================
+# MACHINE LEARNING (ML)
+# ======================================================
+
+# Core ML library with flexible APIs (~40-50 MB)
+# Keep it commented out the FIRST time you run pip install from requirements.txt
+# Uncomment it the SECOND time you run pip install from requirements.txt
+# Otherwise, it's too much work and takes too long. Two steps is better. 
+# scikit-learn
+
+# ======================================================
+# NATURAL LANGUAGE PROCESSING (NLP) - CAN BE VERY LARGE
+# ======================================================
+
+# NLP library for text processing (~10 MB core library; downloading corpora can add ~1 GB).
+#nltk
+
+# SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
+#spacy
+
+# ======================================================
+# OPTIONAL - EXPORT SPECIFIC PACKAGE VERSIONS
+# ======================================================
+# In a terminal, run the following command to export the specific package versions to a file:
+#pip freeze > rv.txt
